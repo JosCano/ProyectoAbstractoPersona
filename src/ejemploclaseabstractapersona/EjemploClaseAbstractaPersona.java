@@ -24,6 +24,9 @@ public class EjemploClaseAbstractaPersona {
         al1= new Alumno ("Juan", "Torres", new GregorianCalendar (1990, 10, 6), "1DAM-B", 7.5);
         prof1= new Profesor  ("Antonio", "Campos", new GregorianCalendar (1970, 8, 15), "Electricidad", 2000);
         
+        
+        
+        
         // Llamada a métodos abstractos en la clase Persona
         // Pero heredados y definidos en las clases Profesor y en Alummno
         al1.mostrar();      
